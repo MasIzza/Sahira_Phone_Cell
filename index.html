@@ -1,37 +1,33 @@
 <!DOCTYPE html>
-
 <html lang="id">
-
 <head>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Sahira Phonecell - Nova Edition</title>
+  <title>SAHIRA PHONECELL – Beli iPhone Second Dibikin Mudah</title>
+  <meta name="description" content="Beli iPhone second di SAHIRA PHONECELL. Cek unit dulu sebelum deal. Bisa ke toko, COD, atau disamperin ke rumah. Cash & paylater tersedia." />
 
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1760940105286603');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1760940105286603&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1760940105286603');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1760940105286603&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
 
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Manrope:wght@400;500;600;700&amp;display=swap"
-    rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
   <link rel="icon" type="image/jpeg" href="ICON.jpeg" />
   <link rel="apple-touch-icon" href="ICON.jpeg" />
 
@@ -40,7 +36,7 @@ src="https://www.facebook.com/tr?id=1760940105286603&ev=PageView&noscript=1"
       darkMode: "class",
       theme: {
         extend: {
-          "colors": {
+          colors: {
             "on-primary-container": "#001b61",
             "inverse-surface": "#08082f",
             "on-tertiary-fixed": "#003840",
@@ -93,786 +89,748 @@ src="https://www.facebook.com/tr?id=1760940105286603&ev=PageView&noscript=1"
             "tertiary-fixed": "#00e3fd",
             "surface-container-low": "#f2efff"
           },
-          "borderRadius": {
-            "DEFAULT": "1rem",
-            "lg": "2rem",
-            "xl": "3rem",
-            "full": "9999px"
+          borderRadius: {
+            DEFAULT: "1rem",
+            lg: "2rem",
+            xl: "3rem",
+            full: "9999px"
           },
-          "fontFamily": {
-            "headline": ["Plus Jakarta Sans"],
-            "body": ["Manrope"],
-            "label": ["Plus Jakarta Sans"]
+          fontFamily: {
+            headline: ["Plus Jakarta Sans"],
+            body: ["Manrope"],
+            label: ["Plus Jakarta Sans"]
           }
-        },
-      },
+        }
+      }
     }
   </script>
+
   <style>
     .material-symbols-outlined {
       font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
     }
-
-    .glass-morphism {
-      background: rgba(255, 255, 255, 0.7);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-    }
-
     .neon-gradient {
-      background: linear-gradient(135deg, #004be2 0%, #00e3fd 100%);
+      background: linear-gradient(135deg, #004be2 0%, #00c8e0 100%);
     }
-
-    @keyframes slide-in-from-left {
-      0% {
-        transform: translateX(-100%);
-        opacity: 0;
-      }
-
-      20%,
-      80% {
-        transform: translateX(0);
-        opacity: 1;
-      }
-
-      100% {
-        transform: translateX(100%);
-        opacity: 0;
-      }
+    @keyframes float-gentle {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-14px); }
     }
-
-    @keyframes slide-in-from-right {
-      0% {
-        transform: translateX(100%);
-        opacity: 0;
-      }
-
-      20%,
-      80% {
-        transform: translateX(0);
-        opacity: 1;
-      }
-
-      100% {
-        transform: translateX(-100%);
-        opacity: 0;
-      }
+    .animate-float {
+      animation: float-gentle 4s ease-in-out infinite;
     }
-
-    .animate-slide-right {
-      display: block;
-      animation: slide-in-from-left 6s ease-in-out infinite;
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
     }
-
-    .animate-slide-left {
-      display: block;
-      animation: slide-in-from-right 6s ease-in-out infinite;
+    .faq-answer.open {
+      max-height: 300px;
     }
-
-    /* Animasi Baru untuk Exclusive Benefits */
-    @keyframes spin-slow {
-      from {
-        transform: rotate(0deg);
-      }
-
-      to {
-        transform: rotate(360deg);
-      }
+    @keyframes pulse-wa {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(37,211,102,0.45); }
+      60% { box-shadow: 0 0 0 12px rgba(37,211,102,0); }
     }
-
-    @keyframes bounce-gentle {
-
-      0%,
-      100% {
-        transform: translateY(0);
-      }
-
-      50% {
-        transform: translateY(-8px);
-      }
+    .pulse-wa {
+      animation: pulse-wa 2.2s ease-in-out infinite;
     }
-
-    @keyframes slide-x-gentle {
-
-      0%,
-      100% {
-        transform: translateX(0);
-      }
-
-      50% {
-        transform: translateX(10px);
-      }
-    }
-
-    /* Trigger animasi saat parent (group) di-hover */
-    .group:hover .icon-refresh {
-      animation: spin-slow 1.5s linear infinite;
-    }
-
-    .group:hover .icon-calendar {
-      animation: bounce-gentle 0.6s ease-in-out infinite;
-    }
-
-    .group:hover .icon-swap {
-      animation: slide-x-gentle 0.6s ease-in-out infinite;
-    }
-
-    /* Animasi Gambar Floating di Hero */
     @keyframes float-1 {
-
-      0%,
-      100% {
-        transform: translate(0, 0) rotate(-5deg);
-      }
-
-      33% {
-        transform: translate(80px, -90px) rotate(15deg);
-      }
-
-      66% {
-        transform: translate(-50px, 60px) rotate(-15deg);
-      }
+      0%, 100% { transform: translate(0,0) rotate(-5deg); }
+      33%       { transform: translate(80px,-90px) rotate(15deg); }
+      66%       { transform: translate(-50px,60px) rotate(-15deg); }
     }
-
     @keyframes float-2 {
-
-      0%,
-      100% {
-        transform: translate(0, 0) rotate(5deg);
-      }
-
-      33% {
-        transform: translate(-100px, 80px) rotate(-10deg);
-      }
-
-      66% {
-        transform: translate(70px, -60px) rotate(20deg);
-      }
+      0%, 100% { transform: translate(0,0) rotate(5deg); }
+      33%       { transform: translate(-100px,80px) rotate(-10deg); }
+      66%       { transform: translate(70px,-60px) rotate(20deg); }
     }
-
     @keyframes float-3 {
-
-      0%,
-      100% {
-        transform: translate(0, 0) rotate(-10deg);
-      }
-
-      33% {
-        transform: translate(120px, 100px) rotate(10deg);
-      }
-
-      66% {
-        transform: translate(-80px, -70px) rotate(-15deg);
-      }
+      0%, 100% { transform: translate(0,0) rotate(-10deg); }
+      33%       { transform: translate(120px,100px) rotate(10deg); }
+      66%       { transform: translate(-80px,-70px) rotate(-15deg); }
     }
-
-    .animate-float-1 {
-      animation: float-1 15s ease-in-out infinite;
-    }
-
-    .animate-float-2 {
-      animation: float-2 18s ease-in-out infinite;
-    }
-
-    .animate-float-3 {
-      animation: float-3 20s ease-in-out infinite;
-    }
-
     @keyframes float-4 {
-
-      0%,
-      100% {
-        transform: translate(0, 0) rotate(8deg);
-      }
-
-      50% {
-        transform: translate(-150px, -120px) rotate(-20deg);
-      }
+      0%, 100% { transform: translate(0,0) rotate(8deg); }
+      50%       { transform: translate(-150px,-120px) rotate(-20deg); }
     }
-
     @keyframes float-5 {
-
-      0%,
-      100% {
-        transform: translate(0, 0) rotate(-15deg);
-      }
-
-      50% {
-        transform: translate(150px, -110px) rotate(15deg);
-      }
+      0%, 100% { transform: translate(0,0) rotate(-15deg); }
+      50%       { transform: translate(150px,-110px) rotate(15deg); }
     }
-
-    .animate-float-4 {
-      animation: float-4 22s ease-in-out infinite;
-    }
-
-    .animate-float-5 {
-      animation: float-5 25s ease-in-out infinite;
-    }
+    .animate-float-1 { animation: float-1 15s ease-in-out infinite; }
+    .animate-float-2 { animation: float-2 18s ease-in-out infinite; }
+    .animate-float-3 { animation: float-3 20s ease-in-out infinite; }
+    .animate-float-4 { animation: float-4 22s ease-in-out infinite; }
+    .animate-float-5 { animation: float-5 25s ease-in-out infinite; }
   </style>
 </head>
 
-<body
-  class="bg-surface font-body text-on-background antialiased selection:bg-tertiary-container selection:text-on-tertiary-container overflow-x-hidden">
-  <!-- TopNavBar -->
-  <nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-sm dark:shadow-none">
-    <div class="flex justify-between items-center px-4 md:px-8 py-4 md:py-5 max-w-7xl mx-auto gap-2">
-      <div
-        class="text-xl md:text-2xl font-black bg-gradient-to-r from-blue-600 to-cyan-400 bg-clip-text text-transparent font-headline tracking-tight whitespace-nowrap">
+<body class="bg-[#f8f5ff] font-body text-[#2a2b51] antialiased overflow-x-hidden pb-20 md:pb-0">
+
+  <script>
+    function wa(eventName, source) {
+      if (typeof fbq !== 'undefined') {
+        fbq('trackCustom', eventName, { source: source });
+      }
+    }
+    function toggleFAQ(n) {
+      var ans = document.getElementById('faq-' + n);
+      var ico = document.getElementById('faq-icon-' + n);
+      var isOpen = ans.classList.contains('open');
+      document.querySelectorAll('.faq-answer.open').forEach(function(el){ el.classList.remove('open'); });
+      document.querySelectorAll('.faq-icon').forEach(function(el){ el.textContent = 'add'; });
+      if (!isOpen) { ans.classList.add('open'); ico.textContent = 'remove'; }
+    }
+  </script>
+
+  <!-- ═══ NAV ═══ -->
+  <nav class="fixed top-0 w-full z-50 bg-white/85 backdrop-blur-md shadow-sm">
+    <div class="flex justify-between items-center px-4 md:px-8 py-3 md:py-4 max-w-7xl mx-auto gap-2">
+      <div class="text-xl md:text-2xl font-black bg-gradient-to-r from-blue-600 to-cyan-400 bg-clip-text text-transparent font-headline tracking-tight whitespace-nowrap">
         Sahira Phonecell
       </div>
-      <div class="hidden md:flex items-center gap-10">
-        <a class="font-headline font-bold text-blue-600 dark:text-cyan-400 border-b-2 border-blue-600 dark:border-cyan-400 pb-1"
-          href="#">Home</a>
-        <a class="font-headline font-bold text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-colors"
-          href="#kenapa">Kenapa Sahira</a>
-        <a class="font-headline font-bold text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-colors"
-          href="#layanan">Layanan</a>
-        <a class="font-headline font-bold text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-colors"
-          href="#katalog">Katalog</a>
+      <div class="hidden md:flex items-center gap-7">
+        <a class="font-headline font-semibold text-slate-600 hover:text-blue-500 transition-colors text-sm" href="#stok">Stok</a>
+        <a class="font-headline font-semibold text-slate-600 hover:text-blue-500 transition-colors text-sm" href="#cara-beli">Cara Beli</a>
+        <a class="font-headline font-semibold text-slate-600 hover:text-blue-500 transition-colors text-sm" href="#katalog">Produk</a>
+        <a class="font-headline font-semibold text-slate-600 hover:text-blue-500 transition-colors text-sm" href="#faq">FAQ</a>
+        <a class="font-headline font-semibold text-slate-600 hover:text-blue-500 transition-colors text-sm" href="#lokasi">Lokasi</a>
       </div>
-      <a href="https://wa.me/6285813994032?text=admin" target="_blank"
-        class="bg-primary text-on-primary px-4 py-2 md:px-7 md:py-3 rounded-full font-bold hover:opacity-80 transition-all duration-300 active:scale-90 flex items-center gap-1 md:gap-2 text-sm md:text-base whitespace-nowrap">
-        Chat Admin
+      <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20mau%20cek%20stok%20iPhone%20terbaru."
+        target="_blank"
+        onclick="wa('ClickWhatsAppSticky','nav_button')"
+        class="bg-green-500 text-white px-4 py-2 md:px-5 md:py-2.5 rounded-full font-bold hover:bg-green-600 transition-all active:scale-95 flex items-center gap-1.5 text-sm whitespace-nowrap shadow-sm">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 flex-shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Cek Stok
       </a>
     </div>
   </nav>
-  <main class="pt-32 space-y-32 md:space-y-48">
-    <!-- Hero Section -->
-    <section class="relative max-w-7xl mx-auto px-4 md:px-8 min-h-[85vh] flex items-center justify-center py-20 mt-10">
-      <!-- Floating Background Images -->
-      <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden rounded-[3rem]">
-        <div class="absolute top-10 right-10 w-96 h-96 bg-primary/20 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-10 left-10 w-96 h-96 bg-secondary/20 rounded-full blur-3xl"></div>
 
+  <main class="pt-20">
+
+    <!-- ═══ HERO ═══ -->
+    <section class="relative max-w-7xl mx-auto px-4 md:px-8 py-14 md:py-24 flex flex-col md:flex-row items-center gap-10 md:gap-16">
+      <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden rounded-3xl">
+        <!-- Blur blobs -->
+        <div class="absolute top-0 right-0 w-96 h-96 bg-blue-100/50 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-72 h-72 bg-purple-100/40 rounded-full blur-3xl"></div>
+        <!-- Floating Apple products -->
         <img src="iphone_blue.png"
-          class="absolute w-20 md:w-40 h-auto object-contain drop-shadow-2xl opacity-70 animate-float-1"
-          style="top: 10%; left: 0%;" />
-        <img src="iphone_orange.png"
-          class="absolute w-24 md:w-48 h-auto object-contain drop-shadow-2xl opacity-80 animate-float-2"
-          style="top: 25%; right: 0%;" />
+          class="absolute w-16 md:w-32 h-auto object-contain drop-shadow-xl opacity-50 animate-float-1"
+          style="top:8%;left:2%;" alt="" />
         <img src="iphone_silver.png"
-          class="absolute w-16 md:w-36 h-auto object-contain drop-shadow-2xl opacity-60 animate-float-3"
-          style="top: 15%; left: 25%;" />
-
-        <!-- Produk Baru Apple Ecosystem (Hidden on very small screens to avoid clutter) -->
+          class="absolute w-14 md:w-28 h-auto object-contain drop-shadow-xl opacity-40 animate-float-3"
+          style="top:12%;left:30%;" alt="" />
         <img src="iwatch.png"
-          class="hidden sm:block absolute w-16 md:w-28 h-auto object-contain drop-shadow-2xl opacity-60 animate-float-4"
-          style="top: 15%; right: 30%; z-index: -1;" />
+          class="hidden sm:block absolute w-12 md:w-20 h-auto object-contain drop-shadow-xl opacity-45 animate-float-4"
+          style="top:18%;right:28%;" alt="" />
         <img src="ipad.png"
-          class="hidden sm:block absolute w-40 md:w-72 h-auto object-contain drop-shadow-2xl opacity-40 animate-float-5"
-          style="bottom: 10%; left: -5%; z-index: -2;" />
+          class="hidden sm:block absolute w-32 md:w-56 h-auto object-contain drop-shadow-xl opacity-25 animate-float-5"
+          style="bottom:5%;left:-2%;z-index:-1;" alt="" />
         <img src="macbook.png"
-          class="hidden sm:block absolute w-48 md:w-80 h-auto object-contain drop-shadow-2xl opacity-30 animate-float-1"
-          style="bottom: 0%; right: 10%; z-index: -2;" />
+          class="hidden md:block absolute w-44 md:w-72 h-auto object-contain drop-shadow-xl opacity-20 animate-float-2"
+          style="bottom:0%;right:8%;z-index:-1;" alt="" />
       </div>
 
-      <div
-        class="relative z-10 space-y-6 md:space-y-10 text-center flex flex-col items-center bg-transparent px-1 py-4 md:p-16 rounded-[3rem] max-w-5xl mx-auto w-full">
-        <div
-          class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold tracking-widest uppercase shadow-sm">
-          <span class="material-symbols-outlined text-sm" style='font-variation-settings: "FILL" 1;'>verified</span>
-          Premium iPhone Specialist
+      <!-- Text -->
+      <div class="relative z-10 flex-1 space-y-6 text-center md:text-left">
+        <!-- Trust badges -->
+        <div class="inline-flex flex-wrap justify-center md:justify-start items-center gap-x-3 gap-y-1 text-xs font-semibold text-slate-500">
+          <span class="flex items-center gap-1">
+            <span class="w-2 h-2 rounded-full bg-green-400 inline-block"></span>
+            New &amp; Second Ready
+          </span>
+          <span class="text-slate-300 hidden sm:inline">•</span>
+          <span>Bisa cek unit dulu</span>
+          <span class="text-slate-300 hidden sm:inline">•</span>
+          <span>Garansi toko</span>
         </div>
-        <h1
-          class="font-headline text-3xl sm:text-4xl md:text-7xl lg:text-8xl font-black tracking-tighter text-on-background text-center">
-          <span class="block animate-slide-right leading-tight">Beli iPhone,</span>
-          <span
-            class="inline-block bg-gradient-to-r from-primary to-tertiary-container bg-clip-text text-transparent animate-slide-left italic py-1 md:py-4 px-2">dengan tenang.</span>
+
+        <!-- Headline -->
+        <h1 class="font-headline text-5xl sm:text-6xl md:text-7xl font-black tracking-tight leading-[1.05]">
+          <span class="text-slate-900">Beli iPhone Second</span><br />
+          <span class="text-blue-600">Dibikin Mudah.</span>
         </h1>
-        <div class="text-sm sm:text-base md:text-xl text-slate-600 dark:text-slate-300 max-w-4xl mx-auto leading-relaxed font-medium space-y-4 drop-shadow-sm mt-4 md:mt-2 px-2">
-          <p class="text-lg sm:text-xl md:text-3xl font-bold italic text-slate-700 dark:text-slate-200 lg:whitespace-nowrap">Cek dulu, baru bayar — di store, di rumah, atau cicilan.</p>
-          <p class="text-center">
-            Kami tahu beli iPhone itu keputusan besar.<br>
-            Itu sebabnya setiap unit di Sahira boleh dicek dulu, di tempat Anda, sebelum uang berpindah tangan.
-          </p>
-        </div>
-        <div class="flex flex-wrap gap-6 pt-6 justify-center">
-          <a href="#kenapa"
-            class="neon-gradient text-white px-10 py-5 rounded-full font-bold shadow-lg shadow-primary/20 flex items-center gap-3 hover:scale-105 transition-transform text-lg">
-            Pilih Cara Beli
-            <span class="material-symbols-outlined">arrow_forward</span>
+
+        <!-- Sub -->
+        <p class="text-slate-600 text-base md:text-lg leading-relaxed max-w-lg mx-auto md:mx-0">
+          Cek unit dulu sepuasnya. Bisa ke toko, COD, atau disamperin ke rumah. Pembayaran bisa full cash atau cash&nbsp;+&nbsp;paylater.
+        </p>
+
+        <!-- CTAs -->
+        <div class="flex flex-col sm:flex-row gap-3 justify-center md:justify-start pt-1">
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20mau%20minta%20katalog%20stok%20iPhone%20terbaru."
+            target="_blank"
+            onclick="wa('ClickWhatsAppHero','hero_catalog')"
+            class="neon-gradient text-white px-7 py-4 rounded-full font-bold shadow-lg shadow-blue-200/60 flex items-center justify-center gap-2 hover:scale-105 active:scale-95 transition-transform text-sm md:text-base">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 flex-shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Minta Katalog Stok Lengkap
           </a>
-          <a href="#footer"
-            class="glass-morphism border border-outline-variant/30 text-primary px-10 py-5 rounded-full font-bold hover:bg-white/50 transition-colors inline-block text-center shadow-lg text-lg">
-            Tentang Kami
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20mau%20tanya%20iPhone%20yang%20cocok%20sesuai%20budget%20saya."
+            target="_blank"
+            onclick="wa('ClickWhatsAppHero','hero_budget')"
+            class="border-2 border-blue-600 text-blue-600 px-7 py-4 rounded-full font-bold hover:bg-blue-50 transition-colors flex items-center justify-center gap-2 text-sm md:text-base">
+            Tanya iPhone Sesuai Budget
+          </a>
+        </div>
+      </div>
+
+      <!-- iPhone visual -->
+      <div class="relative z-10 flex-shrink-0 w-44 sm:w-56 md:w-64 lg:w-72">
+        <img src="iphone_orange.png" class="w-full h-auto object-contain drop-shadow-2xl animate-float" alt="iPhone" />
+      </div>
+    </section>
+
+    <!-- ═══ STOCK PREVIEW ═══ -->
+    <section id="stok" class="bg-white py-16 md:py-20">
+      <div class="max-w-5xl mx-auto px-4 md:px-8">
+        <div class="text-center mb-10 space-y-2">
+          <span class="text-slate-400 font-bold tracking-[0.25em] uppercase text-xs">Stok Hari Ini</span>
+          <h2 class="font-headline text-2xl sm:text-3xl md:text-4xl font-black text-[#2a2b51]">Pilihan iPhone Ready Hari Ini</h2>
+          <p class="text-slate-500 text-sm md:text-base max-w-md mx-auto">Mulai dari seri terjangkau sampai iPhone terbaru. Chat WA untuk cek stok lengkap dan kondisi unit.</p>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-8">
+
+          <!-- XR / XS — placeholder: iphone_silver.png (ganti ke iphone_xr.png saat foto tersedia) -->
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20tertarik%20iPhone%20XR%2FXS.%20Bisa%20lihat%20stok%3F"
+            target="_blank" onclick="wa('ClickWhatsAppCatalog','stock_xr_xs')"
+            class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden flex flex-col hover:border-blue-400 hover:shadow-md transition-all group cursor-pointer">
+            <div class="bg-white flex items-center justify-center h-32 md:h-36 px-4 py-3">
+              <img src="XR_2064GB-800x800.png" class="h-full object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-500" alt="iPhone XR/XS" />
+            </div>
+            <div class="p-3.5 flex flex-col gap-1">
+              <p class="font-bold text-[#2a2b51] text-xs leading-snug">iPhone XR / XS</p>
+              <p class="text-green-600 font-black text-base">2 jutaan</p>
+              <p class="text-slate-400 text-[11px] group-hover:text-blue-600 transition-colors font-semibold flex items-center gap-0.5">Tanya stok <span class="material-symbols-outlined text-xs">arrow_forward</span></p>
+            </div>
+          </a>
+
+          <!-- iPhone 11 — placeholder: iphone_blue.png (ganti ke iphone_11.png saat foto tersedia) -->
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20tertarik%20iPhone%2011%20Series.%20Bisa%20lihat%20stok%3F"
+            target="_blank" onclick="wa('ClickWhatsAppCatalog','stock_11')"
+            class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden flex flex-col hover:border-blue-400 hover:shadow-md transition-all group cursor-pointer">
+            <div class="bg-white flex items-center justify-center h-32 md:h-36 px-4 py-3">
+              <img src="iphone-11.png" class="h-full object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-500" alt="iPhone 11 Series" />
+            </div>
+            <div class="p-3.5 flex flex-col gap-1">
+              <p class="font-bold text-[#2a2b51] text-xs leading-snug">iPhone 11 Series</p>
+              <p class="text-green-600 font-black text-base">4 jutaan</p>
+              <p class="text-slate-400 text-[11px] group-hover:text-blue-600 transition-colors font-semibold flex items-center gap-0.5">Tanya stok <span class="material-symbols-outlined text-xs">arrow_forward</span></p>
+            </div>
+          </a>
+
+          <!-- iPhone 12–13 -->
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20tertarik%20iPhone%2012-13%20Series.%20Bisa%20lihat%20stok%3F"
+            target="_blank" onclick="wa('ClickWhatsAppCatalog','stock_12_13')"
+            class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden flex flex-col hover:border-blue-400 hover:shadow-md transition-all group cursor-pointer">
+            <div class="bg-white flex items-center justify-center h-32 md:h-36 px-4 py-3">
+              <img src="iphone_13.png" class="h-full object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-500" alt="iPhone 12-13 Series" />
+            </div>
+            <div class="p-3.5 flex flex-col gap-1">
+              <p class="font-bold text-[#2a2b51] text-xs leading-snug">iPhone 12–13 Series</p>
+              <p class="text-green-600 font-black text-base">6 jutaan</p>
+              <p class="text-slate-400 text-[11px] group-hover:text-blue-600 transition-colors font-semibold flex items-center gap-0.5">Tanya stok <span class="material-symbols-outlined text-xs">arrow_forward</span></p>
+            </div>
+          </a>
+
+          <!-- iPhone 14–15 -->
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20tertarik%20iPhone%2014-15%20Series.%20Bisa%20lihat%20stok%3F"
+            target="_blank" onclick="wa('ClickWhatsAppCatalog','stock_14_15')"
+            class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden flex flex-col hover:border-blue-400 hover:shadow-md transition-all group cursor-pointer">
+            <div class="bg-white flex items-center justify-center h-32 md:h-36 px-4 py-3">
+              <img src="iphone_15_pro_silver_uniform.png" class="h-full object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-500" alt="iPhone 14-15 Series" />
+            </div>
+            <div class="p-3.5 flex flex-col gap-1">
+              <p class="font-bold text-[#2a2b51] text-xs leading-snug">iPhone 14–15 Series</p>
+              <p class="text-green-600 font-black text-base">7 jutaan</p>
+              <p class="text-slate-400 text-[11px] group-hover:text-blue-600 transition-colors font-semibold flex items-center gap-0.5">Tanya stok <span class="material-symbols-outlined text-xs">arrow_forward</span></p>
+            </div>
+          </a>
+
+          <!-- iPhone 16–17 -->
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20tertarik%20iPhone%2016-17%20Series.%20Bisa%20lihat%20stok%3F"
+            target="_blank" onclick="wa('ClickWhatsAppCatalog','stock_16_17')"
+            class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden flex flex-col hover:border-blue-400 hover:shadow-md transition-all group cursor-pointer col-span-2 sm:col-span-1">
+            <div class="bg-white flex items-center justify-center h-32 md:h-36 px-4 py-3">
+              <img src="iphone_16_pro_gold_uniform.png" class="h-full object-contain drop-shadow-lg group-hover:scale-105 transition-transform duration-500" alt="iPhone 16-17 Series" />
+            </div>
+            <div class="p-3.5 flex flex-col gap-1">
+              <p class="font-bold text-[#2a2b51] text-xs leading-snug">iPhone 16–17 Series</p>
+              <p class="text-blue-600 font-black text-base">Tersedia</p>
+              <p class="text-slate-400 text-[11px] group-hover:text-blue-600 transition-colors font-semibold flex items-center gap-0.5">Tanya stok <span class="material-symbols-outlined text-xs">arrow_forward</span></p>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="text-center">
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20mau%20lihat%20daftar%20stok%20dan%20harga%20iPhone%20hari%20ini."
+            target="_blank" onclick="wa('ClickWhatsAppCatalog','stock_preview_cta')"
+            class="inline-flex items-center gap-2 neon-gradient text-white px-8 py-4 rounded-full font-bold hover:opacity-90 transition-opacity shadow-lg shadow-blue-100">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Minta Daftar Stok Lengkap
           </a>
         </div>
       </div>
     </section>
 
-    <!-- Problem & Solution Grid -->
-    <section class="max-w-5xl mx-auto px-4 sm:px-8 mt-12 mb-8 relative z-20">
-      <div class="grid grid-cols-1 md:grid-cols-2 border border-slate-200/80 rounded-[2rem] overflow-hidden bg-white/40 backdrop-blur-xl shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
-        
-        <!-- Item 1 -->
-        <a href="https://wa.me/6285813994032?text=Takut%20zonk,%20aman%20gak?" target="_blank" class="block p-6 md:p-8 border-b md:border-r border-slate-200/80 relative group cursor-pointer hover:bg-white/60 transition-colors flex items-center gap-5">
-          <div class="text-slate-400 font-mono text-sm font-medium">01</div>
-          <div class="flex-1 text-left">
-            <p class="text-slate-500 text-sm font-medium">Takut barangnya tidak sesuai?</p>
-            <h3 class="text-slate-800 text-lg font-bold leading-snug mt-1">Cek langsung di store atau di rumah.</h3>
-          </div>
-          <div class="w-8 h-8 rounded-full border border-slate-200 flex shrink-0 items-center justify-center text-slate-400 group-hover:border-primary group-hover:text-primary transition-colors">
-            <span class="material-symbols-outlined text-[1rem]">arrow_forward</span>
-          </div>
-        </a>
-
-        <!-- Item 2 -->
-        <a href="https://wa.me/6285813994032?text=Tanya%20paylater" target="_blank" class="block p-6 md:p-8 border-b border-slate-200/80 relative group cursor-pointer hover:bg-white/60 transition-colors flex items-center gap-5">
-          <div class="text-slate-400 font-mono text-sm font-medium">02</div>
-          <div class="flex-1 text-left">
-            <p class="text-slate-500 text-sm font-medium">Belum cukup budget bulan ini?</p>
-            <h3 class="text-slate-800 text-lg font-bold leading-snug mt-1">Cicilan ringan & tukar tambah.</h3>
-          </div>
-          <div class="w-8 h-8 rounded-full border border-slate-200 flex shrink-0 items-center justify-center text-slate-400 group-hover:border-primary group-hover:text-primary transition-colors">
-            <span class="material-symbols-outlined text-[1rem]">arrow_forward</span>
-          </div>
-        </a>
-
-        <!-- Item 3 -->
-        <a href="https://wa.me/6285813994032?text=Bisa%20COD%20ke%20rumah?" target="_blank" class="block p-6 md:p-8 border-b md:border-b-0 md:border-r border-slate-200/80 relative group cursor-pointer hover:bg-white/60 transition-colors flex items-center gap-5">
-          <div class="text-slate-400 font-mono text-sm font-medium">03</div>
-          <div class="flex-1 text-left">
-            <p class="text-slate-500 text-sm font-medium">Lokasi jauh dari Bogor?</p>
-            <h3 class="text-slate-800 text-lg font-bold leading-snug mt-1">COD area, kami yang antar.</h3>
-          </div>
-          <div class="w-8 h-8 rounded-full border border-slate-200 flex shrink-0 items-center justify-center text-slate-400 group-hover:border-primary group-hover:text-primary transition-colors">
-            <span class="material-symbols-outlined text-[1rem]">arrow_forward</span>
-          </div>
-        </a>
-
-        <!-- Item 4 -->
-        <a href="https://wa.me/6285813994032?text=Admin,%20saya%20ingin%20bantuan" target="_blank" class="block p-6 md:p-8 relative group cursor-pointer hover:bg-white/60 transition-colors flex items-center gap-5">
-          <div class="text-slate-400 font-mono text-sm font-medium">04</div>
-          <div class="flex-1 text-left">
-            <p class="text-slate-500 text-sm font-medium">Khawatir data lama hilang?</p>
-            <h3 class="text-slate-800 text-lg font-bold leading-snug mt-1">Pindah data gratis sampai tuntas.</h3>
-          </div>
-          <div class="w-8 h-8 rounded-full border border-slate-200 flex shrink-0 items-center justify-center text-slate-400 group-hover:border-primary group-hover:text-primary transition-colors">
-            <span class="material-symbols-outlined text-[1rem]">arrow_forward</span>
-          </div>
-        </a>
-
+    <!-- ═══ CARA BELI ═══ -->
+    <section id="cara-beli" class="max-w-5xl mx-auto px-4 md:px-8 py-16 md:py-24">
+      <div class="text-center mb-12 space-y-2">
+        <span class="text-slate-400 font-bold tracking-[0.25em] uppercase text-xs">Cara Beli</span>
+        <h2 class="font-headline text-2xl sm:text-3xl md:text-4xl font-black text-[#2a2b51]">Pilih Cara Beli yang Paling Nyaman</h2>
+        <p class="text-slate-500 max-w-sm mx-auto text-sm md:text-base">Nggak harus ribet. Mulai dari chat, cek unit, lalu pilih cara transaksi yang cocok buat Anda.</p>
       </div>
-    </section>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
 
-    <!-- Section Kenapa Sahira -->
-    <section id="kenapa" class="max-w-4xl mx-auto px-4 md:px-8 py-12">
-      <div class="text-center mb-16 space-y-4">
-        <span class="text-slate-400 font-bold tracking-[0.3em] uppercase text-xs">01 CARA BELI</span>
-        <h2 class="font-headline text-2xl sm:text-3xl md:text-5xl font-black text-on-background">
-          Empat jalan menuju iPhone Anda — <br class="hidden md:block"/>
-          <span class="text-primary italic font-normal">pilih yang paling nyaman.</span>
-        </h2>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <a href="#lokasi"
-          class="bg-white p-10 rounded-lg shadow-sm border border-slate-100 flex flex-col gap-6 hover:shadow-md transition-all group cursor-pointer active:scale-95">
-          <div
-            class="w-14 h-14 rounded-2xl bg-blue-50 flex items-center justify-center text-blue-600 border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
-            <span class="material-symbols-outlined text-3xl">storefront</span>
+        <div class="bg-white border border-slate-100 rounded-2xl p-7 flex flex-col gap-4 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center">
+            <span class="material-symbols-outlined text-2xl text-blue-600">storefront</span>
           </div>
-          <div class="space-y-3 flex-1 flex flex-col">
-            <h3 class="font-headline text-2xl font-bold">Cek di Store</h3>
-            <p class="text-slate-500 leading-relaxed mb-4">Datang langsung ke Ciomas. Lihat unit, tes, transaksi di tempat yang sudah berdiri sejak 2019.</p>
-            <div class="mt-auto pt-4"><span class="inline-flex items-center gap-2 text-sm font-bold text-slate-700 bg-slate-100 px-4 py-2 rounded-full group-hover:bg-primary group-hover:text-white transition-all duration-300">Lihat lokasi <span class="group-hover:translate-x-1 transition-transform">→</span></span></div>
+          <div class="flex-1">
+            <h3 class="font-headline text-lg font-bold mb-1.5">Cek di Store</h3>
+            <p class="text-slate-500 text-sm leading-relaxed">Datang langsung, cek unit sepuasnya, tanya kondisi, lalu deal kalau cocok.</p>
           </div>
-        </a>
-        <a href="https://wa.me/6285813994032?text=Bisa%20COD%20ke%20rumah?"
-          target="_blank"
-          class="bg-white p-10 rounded-lg shadow-sm border border-slate-100 flex flex-col gap-6 hover:shadow-md transition-all group cursor-pointer active:scale-95">
-          <div
-            class="w-14 h-14 rounded-2xl bg-pink-50 flex items-center justify-center text-pink-600 border border-pink-100 group-hover:bg-pink-600 group-hover:text-white transition-colors duration-300">
-            <span class="material-symbols-outlined text-3xl">local_shipping</span>
-          </div>
-          <div class="space-y-3 flex-1 flex flex-col">
-            <h3 class="font-headline text-2xl font-bold">COD Area</h3>
-            <p class="text-slate-500 leading-relaxed mb-4">Janjian di tempat tengah yang nyaman. Verifikasi unit langsung sebelum bayar — di kafe, di kantor, di mana saja.</p>
-            <div class="mt-auto pt-4"><span class="inline-flex items-center gap-2 text-sm font-bold text-slate-700 bg-slate-100 px-4 py-2 rounded-full group-hover:bg-primary group-hover:text-white transition-all duration-300">Mulai janji COD <span class="group-hover:translate-x-1 transition-transform">→</span></span></div>
-          </div>
-        </a>
-        <a href="https://wa.me/6285813994032?text=Bisa%20COD%20ke%20rumah?"
-          target="_blank"
-          class="bg-white p-10 rounded-lg shadow-sm border border-slate-100 flex flex-col gap-6 hover:shadow-md transition-all group cursor-pointer active:scale-95">
-          <div
-            class="w-14 h-14 rounded-2xl bg-teal-50 flex items-center justify-center text-teal-600 border border-teal-100 group-hover:bg-teal-600 group-hover:text-white transition-colors duration-300">
-            <span class="material-symbols-outlined text-3xl">home</span>
-          </div>
-          <div class="space-y-3 flex-1 flex flex-col">
-            <h3 class="font-headline text-2xl font-bold">Antar ke Rumah</h3>
-            <p class="text-slate-500 leading-relaxed mb-4">Kami antar unit ke depan pintu. Anda cek dulu — kalau cocok baru bayar. Tidak ada tekanan, tidak ada drama.</p>
-            <div class="mt-auto pt-4"><span class="inline-flex items-center gap-2 text-sm font-bold text-slate-700 bg-slate-100 px-4 py-2 rounded-full group-hover:bg-primary group-hover:text-white transition-all duration-300">Atur pengantaran <span class="group-hover:translate-x-1 transition-transform">→</span></span></div>
-          </div>
-        </a>
-        <a href="https://wa.me/6285813994032?text=Tanya%20paylater"
-          target="_blank"
-          class="bg-white p-10 rounded-lg shadow-sm border border-slate-100 flex flex-col gap-6 hover:shadow-md transition-all group cursor-pointer active:scale-95">
-          <div
-            class="w-14 h-14 rounded-2xl bg-amber-50 flex items-center justify-center text-amber-600 border border-amber-100 group-hover:bg-amber-600 group-hover:text-white transition-colors duration-300">
-            <span class="material-symbols-outlined text-3xl">credit_card</span>
-          </div>
-          <div class="space-y-3 flex-1 flex flex-col">
-            <h3 class="font-headline text-2xl font-bold">Cicilan & Paylater</h3>
-            <p class="text-slate-500 leading-relaxed mb-4">Pilih jangka waktu yang sesuai dompet. Kami bantu cek opsi kredit yang paling ringan untuk Anda.</p>
-            <div class="mt-auto pt-4"><span class="inline-flex items-center gap-2 text-sm font-bold text-slate-700 bg-slate-100 px-4 py-2 rounded-full group-hover:bg-primary group-hover:text-white transition-all duration-300">Hitung cicilan <span class="group-hover:translate-x-1 transition-transform">→</span></span></div>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- Exclusive Benefits Section -->
-    <section id="layanan" class="bg-surface-container-lowest py-32 md:py-40">
-      <div class="max-w-4xl mx-auto px-4 md:px-8">
-        <div class="space-y-6 mb-20">
-          <span class="text-slate-400 font-bold tracking-[0.3em] uppercase text-xs block">Exclusive Benefits</span>
-          <h2 class="font-headline text-2xl sm:text-3xl md:text-6xl font-extrabold text-on-background leading-tight">Pelayanan
-            Standar Apple Specialist.</h2>
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20mau%20tanya%20lokasi%20toko%20untuk%20datang%20langsung."
+            target="_blank" onclick="wa('ClickWhatsAppCatalog','cara_beli_store')"
+            class="inline-flex items-center gap-1 text-sm font-bold text-blue-600 hover:underline">
+            Tanya lokasi toko <span class="material-symbols-outlined text-base">arrow_forward</span>
+          </a>
         </div>
 
-        <div class="space-y-8">
-          <div
-            class="group flex items-start gap-4 md:gap-8 p-4 -m-4 md:p-8 md:-m-8 rounded-[2rem] transition-all hover:bg-white hover:shadow-2xl hover:shadow-primary/5 active:scale-[0.97] cursor-pointer">
-            <div
-              class="w-16 h-16 rounded-full bg-slate-50 flex-shrink-0 flex items-center justify-center text-primary border border-slate-100 group-hover:border-primary/20 transition-all duration-300">
-              <span class="material-symbols-outlined text-3xl icon-refresh">refresh</span>
+        <div class="bg-white border border-slate-100 rounded-2xl p-7 flex flex-col gap-4 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-12 h-12 rounded-xl bg-pink-50 flex items-center justify-center">
+            <span class="material-symbols-outlined text-2xl text-pink-600">local_shipping</span>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-headline text-lg font-bold mb-1.5">COD Area</h3>
+            <p class="text-slate-500 text-sm leading-relaxed">Ketemuan di area yang disepakati. Unit bisa dicek dulu sebelum transaksi.</p>
+          </div>
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20mau%20tanya%20area%20COD."
+            target="_blank" onclick="wa('ClickWhatsAppCatalog','cara_beli_cod')"
+            class="inline-flex items-center gap-1 text-sm font-bold text-blue-600 hover:underline">
+            Tanya area COD <span class="material-symbols-outlined text-base">arrow_forward</span>
+          </a>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-2xl p-7 flex flex-col gap-4 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-12 h-12 rounded-xl bg-teal-50 flex items-center justify-center">
+            <span class="material-symbols-outlined text-2xl text-teal-600">home</span>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-headline text-lg font-bold mb-1.5">Disamperin ke Rumah</h3>
+            <p class="text-slate-500 text-sm leading-relaxed">Lebih nyaman dari rumah? Bisa dibantu sesuai area dan ketersediaan.</p>
+          </div>
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20mau%20tanya%20home%20COD."
+            target="_blank" onclick="wa('ClickWhatsAppCatalog','cara_beli_home')"
+            class="inline-flex items-center gap-1 text-sm font-bold text-blue-600 hover:underline">
+            Tanya home COD <span class="material-symbols-outlined text-base">arrow_forward</span>
+          </a>
+        </div>
+
+        <div class="bg-white border border-slate-100 rounded-2xl p-7 flex flex-col gap-4 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-12 h-12 rounded-xl bg-amber-50 flex items-center justify-center">
+            <span class="material-symbols-outlined text-2xl text-amber-600">credit_card</span>
+          </div>
+          <div class="flex-1">
+            <h3 class="font-headline text-lg font-bold mb-1.5">Cash + Paylater</h3>
+            <p class="text-slate-500 text-sm leading-relaxed">Pembayaran bisa full cash atau cash + paylater, sesuai platform dan limit yang tersedia.</p>
+          </div>
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20mau%20tanya%20opsi%20pembayaran."
+            target="_blank" onclick="wa('ClickWhatsAppCatalog','cara_beli_payment')"
+            class="inline-flex items-center gap-1 text-sm font-bold text-blue-600 hover:underline">
+            Tanya opsi bayar <span class="material-symbols-outlined text-base">arrow_forward</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══ TRUST PROOF ═══ -->
+    <section class="bg-white py-16 md:py-20">
+      <div class="max-w-5xl mx-auto px-4 md:px-8">
+        <div class="text-center mb-10 space-y-2">
+          <span class="text-slate-400 font-bold tracking-[0.25em] uppercase text-xs">Kenapa Aman</span>
+          <h2 class="font-headline text-2xl sm:text-3xl md:text-4xl font-black text-[#2a2b51]">Beli iPhone Second Harus Jelas dari Awal</h2>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="bg-slate-50 rounded-2xl p-6 flex items-start gap-4 border border-slate-100">
+            <div class="w-10 h-10 rounded-xl bg-green-100 flex-shrink-0 flex items-center justify-center">
+              <span class="material-symbols-outlined text-green-600" style='font-variation-settings:"FILL" 1;'>fact_check</span>
             </div>
-            <div class="space-y-2">
-              <h4
-                class="font-headline text-2xl font-bold text-on-background group-hover:text-primary transition-colors">
-                Pindah Data Gratis</h4>
-              <p class="text-on-surface-variant text-lg leading-relaxed">Data penting Anda kami pindahkan secara aman
-                hingga tuntas.</p>
+            <div>
+              <h4 class="font-bold text-[#2a2b51] mb-1">Bisa Cek Unit Dulu</h4>
+              <p class="text-slate-500 text-sm">Buyer boleh cek kondisi unit sebelum deal. Tidak ada tekanan.</p>
             </div>
           </div>
-
-          <div
-            class="group flex items-start gap-4 md:gap-8 p-4 -m-4 md:p-8 md:-m-8 rounded-[2rem] transition-all hover:bg-white hover:shadow-2xl hover:shadow-primary/5 active:scale-[0.97] cursor-pointer">
-            <div
-              class="w-16 h-16 rounded-full bg-slate-50 flex-shrink-0 flex items-center justify-center text-primary border border-slate-100 group-hover:border-primary/20 transition-all duration-300">
-              <span class="material-symbols-outlined text-3xl icon-calendar">calendar_today</span>
+          <div class="bg-slate-50 rounded-2xl p-6 flex items-start gap-4 border border-slate-100">
+            <div class="w-10 h-10 rounded-xl bg-blue-100 flex-shrink-0 flex items-center justify-center">
+              <span class="material-symbols-outlined text-blue-600" style='font-variation-settings:"FILL" 1;'>verified_user</span>
             </div>
-            <div class="space-y-2">
-              <h4
-                class="font-headline text-2xl font-bold text-on-background group-hover:text-primary transition-colors">
-                Sistem Booking</h4>
-              <p class="text-on-surface-variant text-lg leading-relaxed">Amankan unit langka dengan DP minimal tanpa
-                ribet.</p>
+            <div>
+              <h4 class="font-bold text-[#2a2b51] mb-1">Garansi Toko</h4>
+              <p class="text-slate-500 text-sm">Ada garansi toko sesuai ketentuan unit yang dibeli.</p>
             </div>
           </div>
-
-          <div
-            class="group flex items-start gap-4 md:gap-8 p-4 -m-4 md:p-8 md:-m-8 rounded-[2rem] transition-all hover:bg-white hover:shadow-2xl hover:shadow-primary/5 active:scale-[0.97] cursor-pointer">
-            <div
-              class="w-16 h-16 rounded-full bg-slate-50 flex-shrink-0 flex items-center justify-center text-primary border border-slate-100 group-hover:border-primary/20 transition-all duration-300">
-              <span class="material-symbols-outlined text-3xl icon-swap">swap_horiz</span>
+          <div class="bg-slate-50 rounded-2xl p-6 flex items-start gap-4 border border-slate-100">
+            <div class="w-10 h-10 rounded-xl bg-purple-100 flex-shrink-0 flex items-center justify-center">
+              <span class="material-symbols-outlined text-purple-600" style='font-variation-settings:"FILL" 1;'>storefront</span>
             </div>
-            <div class="space-y-2">
-              <h4
-                class="font-headline text-2xl font-bold text-on-background group-hover:text-primary transition-colors">
-                Tukar Tambah</h4>
-              <p class="text-on-surface-variant text-lg leading-relaxed">Taksiran harga jujur mengikuti pasar untuk
-                upgrade unit Anda.</p>
+            <div>
+              <h4 class="font-bold text-[#2a2b51] mb-1">Toko Bisa Dikunjungi</h4>
+              <p class="text-slate-500 text-sm">SAHIRA punya tempat yang bisa didatangi langsung di Ciomas, Bogor.</p>
+            </div>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-6 flex items-start gap-4 border border-slate-100">
+            <div class="w-10 h-10 rounded-xl bg-teal-100 flex-shrink-0 flex items-center justify-center">
+              <span class="material-symbols-outlined text-teal-600" style='font-variation-settings:"FILL" 1;'>phone_iphone</span>
+            </div>
+            <div>
+              <h4 class="font-bold text-[#2a2b51] mb-1">Dibantu Sampai Siap Pakai</h4>
+              <p class="text-slate-500 text-sm">Bisa dibantu pindah data dan arahan pemakaian iPhone baru Anda.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Katalog Section -->
-    <section id="katalog" class="max-w-7xl mx-auto px-4 md:px-8 py-12">
-      <div class="flex flex-col md:flex-row justify-between items-center mb-20 gap-8">
-        <div class="text-center md:text-left space-y-4">
-          <h2 class="font-headline text-2xl sm:text-3xl md:text-5xl font-bold text-on-background">Pilihan Unit Terbaik.</h2>
-          <p class="text-on-surface-variant text-base md:text-lg">Kondisi prima, garansi terjamin, dan siap pakai.</p>
+    <!-- ═══ PRODUK ═══ -->
+    <section id="katalog" class="max-w-7xl mx-auto px-4 md:px-8 py-16 md:py-24">
+      <div class="text-center mb-10 space-y-2">
+        <span class="text-slate-400 font-bold tracking-[0.25em] uppercase text-xs">Unit Pilihan</span>
+        <h2 class="font-headline text-2xl sm:text-3xl md:text-4xl font-bold text-[#2a2b51]">Pilihan Unit Terbaik</h2>
+        <p class="text-slate-500 text-sm md:text-base max-w-xs mx-auto">Stok bisa berubah. Chat dulu untuk cek kondisi dan ketersediaan.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+        <!-- Card 1: iPhone 17 Pro / Pro Max -->
+        <div class="group bg-white rounded-2xl overflow-hidden border border-slate-100 hover:shadow-xl transition-shadow flex flex-col">
+          <div class="relative h-56 overflow-hidden bg-slate-50">
+            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              src="READY%20STOCK%20%E2%9C%85iPhone%2017%20Pro%20256%20GB%20%26%20iPhone%2017%20Promax%20256%20GB%20Garansi%20Resmi%20Digimap%20Warna%20-%20Silver.jpg"
+              alt="iPhone 17 Pro / Pro Max" />
+            <div class="absolute top-3 left-3 flex gap-1.5">
+              <span class="bg-purple-100 text-purple-700 text-[10px] font-bold px-2.5 py-1 rounded-md">NEW</span>
+              <span class="bg-cyan-100 text-cyan-700 text-[10px] font-bold px-2.5 py-1 rounded-md">HOT</span>
+            </div>
+            <div class="absolute top-3 right-3">
+              <span class="bg-green-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-md">READY</span>
+            </div>
+          </div>
+          <div class="p-5 flex flex-col gap-3 flex-1">
+            <div>
+              <h4 class="font-headline text-base font-bold">iPhone 17 Pro / Pro Max</h4>
+              <p class="text-slate-500 text-xs mt-0.5">256GB · Silver · Garansi Resmi Digimap</p>
+            </div>
+            <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20tertarik%20dengan%20iPhone%2017%20Pro%2FPro%20Max%20256GB.%20Apakah%20stoknya%20masih%20ready%3F"
+              target="_blank" onclick="wa('ClickWhatsAppProduct','product_17pro')"
+              class="mt-auto block text-center w-full py-3 bg-green-500 hover:bg-green-600 active:scale-95 text-white rounded-xl font-bold text-sm transition-all">
+              Tanya Unit Ini
+            </a>
+          </div>
         </div>
-        <a href="https://wa.me/6285813994032?text=Harga%20iPhone%20berapa?"
-          target="_blank"
-          class="text-primary font-bold text-lg flex items-center gap-3 group border-2 border-primary/10 px-6 py-3 rounded-full hover:bg-primary/5 transition-all">
-          Lihat Semua
-          <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_right_alt</span>
+
+        <!-- Card 2: iPhone 16 -->
+        <div class="group bg-white rounded-2xl overflow-hidden border border-slate-100 hover:shadow-xl transition-shadow flex flex-col">
+          <div class="relative h-56 overflow-hidden bg-slate-50">
+            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              src="READY%20STOCK%20%E2%9C%85%20Iphone%2016-128%20GB%20Garansi%20Resmi%20DigimapWarna%20-%20Teal%E2%9A%AB%EF%B8%8F%20Garansi%20Resmi%20Digimap%E2%9A%AB%EF%B8%8F%20Fungs.jpg"
+              alt="iPhone 16 Teal" />
+            <div class="absolute top-3 left-3 flex gap-1.5">
+              <span class="bg-blue-100 text-blue-700 text-[10px] font-bold px-2.5 py-1 rounded-md">Garansi Resmi</span>
+            </div>
+            <div class="absolute top-3 right-3">
+              <span class="bg-green-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-md">READY</span>
+            </div>
+          </div>
+          <div class="p-5 flex flex-col gap-3 flex-1">
+            <div>
+              <h4 class="font-headline text-base font-bold">iPhone 16</h4>
+              <p class="text-slate-500 text-xs mt-0.5">128GB · Teal · Garansi Resmi Digimap · Fungsional Normal</p>
+            </div>
+            <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20tertarik%20dengan%20iPhone%2016%20128GB%20Teal.%20Apakah%20stoknya%20masih%20ready%3F"
+              target="_blank" onclick="wa('ClickWhatsAppProduct','product_16_teal')"
+              class="mt-auto block text-center w-full py-3 bg-green-500 hover:bg-green-600 active:scale-95 text-white rounded-xl font-bold text-sm transition-all">
+              Tanya Unit Ini
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 3: iPhone 15 Pro Max -->
+        <div class="group bg-white rounded-2xl overflow-hidden border border-slate-100 hover:shadow-xl transition-shadow flex flex-col">
+          <div class="relative h-56 overflow-hidden bg-slate-50">
+            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              src="READY%20STOCK%20%E2%9C%85%20Iphone%2015%20Promax%20256%20GB%20Ex%20Garansi%20Resmi%20Bli%20Bli%20Warna%20-%20Natural%20Titanium%E2%9A%AB%EF%B8%8F%20Garans.jpg"
+              alt="iPhone 15 Pro Max Natural Titanium" />
+            <div class="absolute top-3 left-3 flex gap-1.5">
+              <span class="bg-slate-100 text-slate-600 text-[10px] font-bold px-2.5 py-1 rounded-md">Ex Garansi</span>
+              <span class="bg-cyan-100 text-cyan-700 text-[10px] font-bold px-2.5 py-1 rounded-md">BEST</span>
+            </div>
+            <div class="absolute top-3 right-3">
+              <span class="bg-green-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-md">READY</span>
+            </div>
+          </div>
+          <div class="p-5 flex flex-col gap-3 flex-1">
+            <div>
+              <h4 class="font-headline text-base font-bold">iPhone 15 Pro Max</h4>
+              <p class="text-slate-500 text-xs mt-0.5">256GB · Natural Titanium · Ex Garansi Resmi Bli Bli</p>
+            </div>
+            <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20tertarik%20dengan%20iPhone%2015%20Pro%20Max%20256GB%20Natural%20Titanium.%20Apakah%20stoknya%20masih%20ready%3F"
+              target="_blank" onclick="wa('ClickWhatsAppProduct','product_15promax')"
+              class="mt-auto block text-center w-full py-3 bg-green-500 hover:bg-green-600 active:scale-95 text-white rounded-xl font-bold text-sm transition-all">
+              Tanya Unit Ini
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 4: iPhone 15 Plus -->
+        <div class="group bg-white rounded-2xl overflow-hidden border border-slate-100 hover:shadow-xl transition-shadow flex flex-col">
+          <div class="relative h-56 overflow-hidden bg-slate-50">
+            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              src="READY%20STOCK%20%E2%9C%85%20Iphone%2015%20Plus%20128%20GB%20Garansi%20Resmi%20DigimapWarna%20-%20pink%20%E2%9A%AB%EF%B8%8F%20Ex%20Garansi%20Resmi%20Digima.jpg"
+              alt="iPhone 15 Plus Pink" />
+            <div class="absolute top-3 left-3 flex gap-1.5">
+              <span class="bg-pink-100 text-pink-700 text-[10px] font-bold px-2.5 py-1 rounded-md">Ex Garansi</span>
+            </div>
+            <div class="absolute top-3 right-3">
+              <span class="bg-green-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-md">READY</span>
+            </div>
+          </div>
+          <div class="p-5 flex flex-col gap-3 flex-1">
+            <div>
+              <h4 class="font-headline text-base font-bold">iPhone 15 Plus</h4>
+              <p class="text-slate-500 text-xs mt-0.5">128GB · Pink · Ex Garansi Resmi Digimap</p>
+            </div>
+            <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20tertarik%20dengan%20iPhone%2015%20Plus%20128GB%20Pink.%20Apakah%20stoknya%20masih%20ready%3F"
+              target="_blank" onclick="wa('ClickWhatsAppProduct','product_15plus')"
+              class="mt-auto block text-center w-full py-3 bg-green-500 hover:bg-green-600 active:scale-95 text-white rounded-xl font-bold text-sm transition-all">
+              Tanya Unit Ini
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 5: iPhone 13 (iBox) -->
+        <div class="group bg-white rounded-2xl overflow-hidden border border-slate-100 hover:shadow-xl transition-shadow flex flex-col">
+          <div class="relative h-56 overflow-hidden bg-slate-50">
+            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              src="READY%20STOCK%20%E2%9C%85%20Iphone%2013-128%20GB%20Garansi%20Resmi%20iBoxWarna%20-%20Midnight%20Blue%20%E2%9A%AB%EF%B8%8F%20Garansi%20Resmi%20iBox%E2%9A%AB%EF%B8%8F%20F.jpg"
+              alt="iPhone 13 Midnight Blue iBox" />
+            <div class="absolute top-3 left-3 flex gap-1.5">
+              <span class="bg-blue-100 text-blue-700 text-[10px] font-bold px-2.5 py-1 rounded-md">iBox</span>
+              <span class="bg-green-100 text-green-700 text-[10px] font-bold px-2.5 py-1 rounded-md">VALUE</span>
+            </div>
+            <div class="absolute top-3 right-3">
+              <span class="bg-green-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-md">READY</span>
+            </div>
+          </div>
+          <div class="p-5 flex flex-col gap-3 flex-1">
+            <div>
+              <h4 class="font-headline text-base font-bold">iPhone 13</h4>
+              <p class="text-slate-500 text-xs mt-0.5">128GB · Midnight Blue · Garansi Resmi iBox</p>
+            </div>
+            <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20tertarik%20dengan%20iPhone%2013%20128GB%20Midnight%20Blue%20iBox.%20Apakah%20stoknya%20masih%20ready%3F"
+              target="_blank" onclick="wa('ClickWhatsAppProduct','product_13_ibox')"
+              class="mt-auto block text-center w-full py-3 bg-green-500 hover:bg-green-600 active:scale-95 text-white rounded-xl font-bold text-sm transition-all">
+              Tanya Unit Ini
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 6: iPhone 13 (Fungsional Normal) -->
+        <div class="group bg-white rounded-2xl overflow-hidden border border-slate-100 hover:shadow-xl transition-shadow flex flex-col">
+          <div class="relative h-56 overflow-hidden bg-slate-50">
+            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              src="READY%20STOCK%20%E2%9C%85%20Iphone%2013-128%20GB%20iBox%20Warna%20-%20Midnight%20Blue%E2%9A%AB%EF%B8%8F%20Garansi%20Resmi%20iBox%E2%9A%AB%EF%B8%8F%20Fungsional%20Norm.jpg"
+              alt="iPhone 13 Midnight Blue Fungsional Normal" />
+            <div class="absolute top-3 left-3 flex gap-1.5">
+              <span class="bg-blue-100 text-blue-700 text-[10px] font-bold px-2.5 py-1 rounded-md">iBox</span>
+            </div>
+            <div class="absolute top-3 right-3">
+              <span class="bg-green-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-md">READY</span>
+            </div>
+          </div>
+          <div class="p-5 flex flex-col gap-3 flex-1">
+            <div>
+              <h4 class="font-headline text-base font-bold">iPhone 13</h4>
+              <p class="text-slate-500 text-xs mt-0.5">128GB · Midnight Blue · Garansi Resmi iBox · Fungsional Normal</p>
+            </div>
+            <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20tertarik%20dengan%20iPhone%2013%20128GB%20iBox%20Fungsional%20Normal.%20Apakah%20stoknya%20masih%20ready%3F"
+              target="_blank" onclick="wa('ClickWhatsAppProduct','product_13_normal')"
+              class="mt-auto block text-center w-full py-3 bg-green-500 hover:bg-green-600 active:scale-95 text-white rounded-xl font-bold text-sm transition-all">
+              Tanya Unit Ini
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CTA setelah produk -->
+      <div class="text-center mt-10">
+        <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20mau%20lihat%20katalog%20lengkap%20stok%20iPhone."
+          target="_blank" onclick="wa('ClickWhatsAppCatalog','after_products')"
+          class="inline-flex items-center gap-2 border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-full font-bold hover:bg-blue-600 hover:text-white transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Minta Katalog Lengkap via WhatsApp
         </a>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-        <!-- Product Card 1: iPhone 17 -->
-        <div
-          class="group relative bg-surface p-6 rounded-lg overflow-hidden border border-outline-variant/10 hover:shadow-2xl transition-all">
-          <div class="relative h-64 w-full overflow-hidden rounded-DEFAULT mb-8 flex justify-center items-center p-6">
-            <img class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-700"
-              data-alt="iPhone 17 Series" src="iphone_orange.png" />
-            <div class="absolute top-4 left-4 flex gap-2">
-              <span
-                class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-3 py-1.5 rounded-sm">NEW
-                ARRIVAL</span>
-              <span
-                class="bg-tertiary-container text-on-tertiary-container text-[10px] font-bold px-3 py-1.5 rounded-sm">HOT</span>
-            </div>
+    </section>
+
+    <!-- ═══ FAQ ═══ -->
+    <section id="faq" class="bg-white py-16 md:py-20">
+      <div class="max-w-2xl mx-auto px-4 md:px-8">
+        <div class="text-center mb-10 space-y-2">
+          <span class="text-slate-400 font-bold tracking-[0.25em] uppercase text-xs">FAQ</span>
+          <h2 class="font-headline text-2xl sm:text-3xl md:text-4xl font-black text-[#2a2b51]">Yang Sering Ditanyakan Sebelum Beli</h2>
+        </div>
+
+        <div class="divide-y divide-slate-100">
+          <div>
+            <button onclick="toggleFAQ(1)" class="w-full flex justify-between items-center py-5 text-left gap-4">
+              <span class="font-semibold text-[#2a2b51] text-sm md:text-base">Apakah unit bisa dicek dulu?</span>
+              <span id="faq-icon-1" class="faq-icon material-symbols-outlined text-slate-400 flex-shrink-0 text-xl">add</span>
+            </button>
+            <div id="faq-1" class="faq-answer"><p class="text-slate-500 text-sm pb-5">Bisa. Buyer bisa cek unit dulu sebelum deal. Tidak ada tekanan untuk langsung beli.</p></div>
           </div>
-          <div class="space-y-4">
-            <h4 class="font-headline text-2xl font-bold">iPhone 17 Pro Max</h4>
-            <p class="text-on-surface-variant text-sm">256GB / Titanium / Brand New</p>
-            <div class="flex items-center justify-between pt-6">
-              <span class="text-2xl font-black text-primary">Rp 26.000.000</span>
-              <a href="https://wa.me/6285813994032?text=Halo,%20apakah%20iPhone%2017%20Pro%20Max%20masih%20ready?"
-                target="_blank"
-                class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center hover:scale-110 transition-transform">
-                <span class="material-symbols-outlined text-lg">chat_bubble</span>
-              </a>
-            </div>
-            <a href="https://wa.me/6285813994032?text=Halo,%20apakah%20iPhone%2017%20Pro%20Max%20masih%20ready?"
-              target="_blank"
-              class="block text-center w-full mt-6 py-4 bg-surface-container-high rounded-full font-bold text-sm hover:bg-primary hover:text-white transition-colors">Tanya
-              Stok</a>
+          <div>
+            <button onclick="toggleFAQ(2)" class="w-full flex justify-between items-center py-5 text-left gap-4">
+              <span class="font-semibold text-[#2a2b51] text-sm md:text-base">Bisa datang langsung ke toko?</span>
+              <span id="faq-icon-2" class="faq-icon material-symbols-outlined text-slate-400 flex-shrink-0 text-xl">add</span>
+            </button>
+            <div id="faq-2" class="faq-answer"><p class="text-slate-500 text-sm pb-5">Bisa. Silakan chat dulu untuk cek stok dan jadwal kunjungan agar tidak sia-sia datang.</p></div>
+          </div>
+          <div>
+            <button onclick="toggleFAQ(3)" class="w-full flex justify-between items-center py-5 text-left gap-4">
+              <span class="font-semibold text-[#2a2b51] text-sm md:text-base">Bisa COD?</span>
+              <span id="faq-icon-3" class="faq-icon material-symbols-outlined text-slate-400 flex-shrink-0 text-xl">add</span>
+            </button>
+            <div id="faq-3" class="faq-answer"><p class="text-slate-500 text-sm pb-5">Bisa untuk area tertentu. Chat dulu untuk konfirmasi area COD yang tersedia.</p></div>
+          </div>
+          <div>
+            <button onclick="toggleFAQ(4)" class="w-full flex justify-between items-center py-5 text-left gap-4">
+              <span class="font-semibold text-[#2a2b51] text-sm md:text-base">Bisa disamperin ke rumah?</span>
+              <span id="faq-icon-4" class="faq-icon material-symbols-outlined text-slate-400 flex-shrink-0 text-xl">add</span>
+            </button>
+            <div id="faq-4" class="faq-answer"><p class="text-slate-500 text-sm pb-5">Bisa sesuai area dan ketersediaan tim. Chat WA dulu untuk konfirmasi.</p></div>
+          </div>
+          <div>
+            <button onclick="toggleFAQ(5)" class="w-full flex justify-between items-center py-5 text-left gap-4">
+              <span class="font-semibold text-[#2a2b51] text-sm md:text-base">Bisa bayar cash + paylater?</span>
+              <span id="faq-icon-5" class="faq-icon material-symbols-outlined text-slate-400 flex-shrink-0 text-xl">add</span>
+            </button>
+            <div id="faq-5" class="faq-answer"><p class="text-slate-500 text-sm pb-5">Bisa, sesuai platform dan limit yang tersedia. Tim SAHIRA bisa bantu arahkan prosesnya.</p></div>
+          </div>
+          <div>
+            <button onclick="toggleFAQ(6)" class="w-full flex justify-between items-center py-5 text-left gap-4">
+              <span class="font-semibold text-[#2a2b51] text-sm md:text-base">Unitnya iBox atau Inter?</span>
+              <span id="faq-icon-6" class="faq-icon material-symbols-outlined text-slate-400 flex-shrink-0 text-xl">add</span>
+            </button>
+            <div id="faq-6" class="faq-answer"><p class="text-slate-500 text-sm pb-5">Tergantung stok yang tersedia. Detail unit (iBox/Inter, kondisi, BH) akan dijelaskan sebelum transaksi.</p></div>
+          </div>
+          <div>
+            <button onclick="toggleFAQ(7)" class="w-full flex justify-between items-center py-5 text-left gap-4">
+              <span class="font-semibold text-[#2a2b51] text-sm md:text-base">Ada garansi?</span>
+              <span id="faq-icon-7" class="faq-icon material-symbols-outlined text-slate-400 flex-shrink-0 text-xl">add</span>
+            </button>
+            <div id="faq-7" class="faq-answer"><p class="text-slate-500 text-sm pb-5">Ada garansi toko sesuai ketentuan unit yang dibeli.</p></div>
+          </div>
+          <div>
+            <button onclick="toggleFAQ(8)" class="w-full flex justify-between items-center py-5 text-left gap-4">
+              <span class="font-semibold text-[#2a2b51] text-sm md:text-base">Stok di website selalu ready?</span>
+              <span id="faq-icon-8" class="faq-icon material-symbols-outlined text-slate-400 flex-shrink-0 text-xl">add</span>
+            </button>
+            <div id="faq-8" class="faq-answer"><p class="text-slate-500 text-sm pb-5">Stok bisa berubah sewaktu-waktu. Chat WA dulu untuk cek stok dan kondisi unit terbaru.</p></div>
           </div>
         </div>
 
-        <!-- Product Card 2: iPhone 16 -->
-        <div
-          class="group relative bg-surface p-6 rounded-lg overflow-hidden border border-outline-variant/10 hover:shadow-2xl transition-all">
-          <div class="relative h-64 w-full overflow-hidden rounded-DEFAULT mb-8 flex justify-center items-center p-6">
-            <img class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-700"
-              data-alt="iPhone 16 Series"
-              src="iphone_16_pro_gold_uniform.png" />
-            <div class="absolute top-4 left-4 flex gap-2">
-              <span
-                class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-3 py-1.5 rounded-sm">5G
-                READY</span>
-            </div>
-          </div>
-          <div class="space-y-4">
-            <h4 class="font-headline text-2xl font-bold">iPhone 16 Pro</h4>
-            <p class="text-on-surface-variant text-sm">256GB / Titanium / Like New</p>
-            <div class="flex items-center justify-between pt-6">
-              <span class="text-2xl font-black text-primary">Rp 19.999.000</span>
-              <a href="https://wa.me/6285813994032?text=Halo,%20apakah%20iPhone%2016%20Pro%20masih%20ready?"
-                target="_blank"
-                class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center hover:scale-110 transition-transform">
-                <span class="material-symbols-outlined text-lg">chat_bubble</span>
-              </a>
-            </div>
-            <a href="https://wa.me/6285813994032?text=Halo,%20apakah%20iPhone%2016%20Pro%20masih%20ready?"
-              target="_blank"
-              class="block text-center w-full mt-6 py-4 bg-surface-container-high rounded-full font-bold text-sm hover:bg-primary hover:text-white transition-colors">Tanya
-              Stok</a>
-          </div>
-        </div>
-
-        <!-- Product Card 3: iPhone 15 -->
-        <div
-          class="group relative bg-surface p-6 rounded-lg overflow-hidden border border-outline-variant/10 hover:shadow-2xl transition-all">
-          <div class="relative h-64 w-full overflow-hidden rounded-DEFAULT mb-8 flex justify-center items-center p-6">
-            <img class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-700"
-              data-alt="Titanium natural iPhone 15 Pro"
-              src="iphone_15_pro_silver_uniform.png" />
-            <div class="absolute top-4 left-4 flex gap-2">
-              <span
-                class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-3 py-1.5 rounded-sm">5G
-                READY</span>
-              <span
-                class="bg-tertiary-container text-on-tertiary-container text-[10px] font-bold px-3 py-1.5 rounded-sm">BEST
-                SELLER</span>
-            </div>
-          </div>
-          <div class="space-y-4">
-            <h4 class="font-headline text-2xl font-bold">iPhone 15 Pro Max</h4>
-            <p class="text-on-surface-variant text-sm">256GB / Natural Titanium / Battery 95%</p>
-            <div class="flex items-center justify-between pt-6">
-              <span class="text-2xl font-black text-primary">Rp 16.000.000</span>
-              <a href="https://wa.me/6285813994032?text=Halo,%20apakah%20iPhone%2015%20Pro%20Max%20masih%20ready?"
-                target="_blank"
-                class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center hover:scale-110 transition-transform">
-                <span class="material-symbols-outlined text-lg">chat_bubble</span>
-              </a>
-            </div>
-            <a href="https://wa.me/6285813994032?text=Halo,%20apakah%20iPhone%2015%20Pro%20Max%20masih%20ready?"
-              target="_blank"
-              class="block text-center w-full mt-6 py-4 bg-surface-container-high rounded-full font-bold text-sm hover:bg-primary hover:text-white transition-colors">Tanya
-              Stok</a>
-          </div>
-        </div>
-
-        <!-- Product Card 4: iPhone 14 -->
-        <div
-          class="group relative bg-surface p-6 rounded-lg overflow-hidden border border-outline-variant/10 hover:shadow-2xl transition-all">
-          <div class="relative h-64 w-full overflow-hidden rounded-DEFAULT mb-8 flex justify-center items-center p-6">
-            <img class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-700"
-              data-alt="Deep purple iPhone 14 Pro"
-              src="iphone_14_purple_uniform.png" />
-            <div class="absolute top-4 left-4 flex gap-2">
-              <span
-                class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-3 py-1.5 rounded-sm">5G
-                READY</span>
-            </div>
-          </div>
-          <div class="space-y-4">
-            <h4 class="font-headline text-2xl font-bold">iPhone 14 Pro</h4>
-            <p class="text-on-surface-variant text-sm">128GB / Deep Purple / Fullset Original</p>
-            <div class="flex items-center justify-between pt-6">
-              <span class="text-2xl font-black text-primary">Rp 10.000.000</span>
-              <a href="https://wa.me/6285813994032?text=Halo,%20apakah%20iPhone%2014%20Pro%20masih%20ready?"
-                target="_blank"
-                class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center hover:scale-110 transition-transform">
-                <span class="material-symbols-outlined text-lg">chat_bubble</span>
-              </a>
-            </div>
-            <a href="https://wa.me/6285813994032?text=Halo,%20apakah%20iPhone%2014%20Pro%20masih%20ready?"
-              target="_blank"
-              class="block text-center w-full mt-6 py-4 bg-surface-container-high rounded-full font-bold text-sm hover:bg-primary hover:text-white transition-colors">Tanya
-              Stok</a>
-          </div>
-        </div>
-
-        <!-- Product Card 5: iPhone 13 -->
-        <div
-          class="group relative bg-surface p-6 rounded-lg overflow-hidden border border-outline-variant/10 hover:shadow-2xl transition-all">
-          <div class="relative h-64 w-full overflow-hidden rounded-DEFAULT mb-8 flex justify-center items-center p-6">
-            <img class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-700"
-              data-alt="White iPhone 13"
-              src="iphone_13.png" />
-            <div class="absolute top-4 left-4 flex gap-2">
-              <span
-                class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-3 py-1.5 rounded-sm">VALUE
-                PICK</span>
-            </div>
-          </div>
-          <div class="space-y-4">
-            <h4 class="font-headline text-2xl font-bold">iPhone 13</h4>
-            <p class="text-on-surface-variant text-sm">128GB / Starlight / Garansi On</p>
-            <div class="flex items-center justify-between pt-6">
-              <span class="text-2xl font-black text-primary">Rp 7.000.000</span>
-              <a href="https://wa.me/6285813994032?text=Halo,%20apakah%20iPhone%2013%20masih%20ready?" target="_blank"
-                class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center hover:scale-110 transition-transform">
-                <span class="material-symbols-outlined text-lg">chat_bubble</span>
-              </a>
-            </div>
-            <a href="https://wa.me/6285813994032?text=Halo,%20apakah%20iPhone%2013%20masih%20ready?" target="_blank"
-              class="block text-center w-full mt-6 py-4 bg-surface-container-high rounded-full font-bold text-sm hover:bg-primary hover:text-white transition-colors">Tanya
-              Stok</a>
-          </div>
-        </div>
-
-        <!-- Product Card 6: iPhone 12 -->
-        <div
-          class="group relative bg-surface p-6 rounded-lg overflow-hidden border border-outline-variant/10 hover:shadow-2xl transition-all">
-          <div class="relative h-64 w-full overflow-hidden rounded-DEFAULT mb-8 flex justify-center items-center p-6">
-            <img class="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-700"
-              data-alt="iPhone 12"
-              src="ip_12.png" />
-            <div class="absolute top-4 left-4 flex gap-2">
-              <span
-                class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-3 py-1.5 rounded-sm">HOT
-                DEAL</span>
-            </div>
-          </div>
-          <div class="space-y-4">
-            <h4 class="font-headline text-2xl font-bold">iPhone 12</h4>
-            <p class="text-on-surface-variant text-sm">128GB / Black / Mulus 99%</p>
-            <div class="flex items-center justify-between pt-6">
-              <span class="text-2xl font-black text-primary">Rp 4.200.000</span>
-              <a href="https://wa.me/6285813994032?text=Halo,%20apakah%20iPhone%2012%20masih%20ready?" target="_blank"
-                class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center hover:scale-110 transition-transform">
-                <span class="material-symbols-outlined text-lg">chat_bubble</span>
-              </a>
-            </div>
-            <a href="https://wa.me/6285813994032?text=Halo,%20apakah%20iPhone%2012%20masih%20ready?" target="_blank"
-              class="block text-center w-full mt-6 py-4 bg-surface-container-high rounded-full font-bold text-sm hover:bg-primary hover:text-white transition-colors">Tanya
-              Stok</a>
-          </div>
+        <div class="text-center mt-10">
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20masih%20punya%20pertanyaan%20sebelum%20beli."
+            target="_blank" onclick="wa('ClickWhatsAppFAQ','faq_cta')"
+            class="inline-flex items-center gap-1.5 text-blue-600 font-bold hover:underline text-sm">
+            Masih ragu? Tanya dulu via WhatsApp
+            <span class="material-symbols-outlined text-base">arrow_forward</span>
+          </a>
         </div>
       </div>
     </section>
-    <!-- CTA Section -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-8 py-8 md:py-16">
-      <div
-        class="neon-gradient rounded-xl p-8 md:p-32 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8 md:gap-16">
-        <div class="absolute top-0 right-0 w-full h-full opacity-10 pointer-events-none">
-          <svg class="w-full h-full" viewbox="0 0 100 100">
-            <circle cx="50" cy="50" fill="none" r="40" stroke="white" stroke-width="0.5"></circle>
-            <circle cx="50" cy="50" fill="none" r="30" stroke="white" stroke-width="0.5"></circle>
-            <circle cx="50" cy="50" fill="none" r="20" stroke="white" stroke-width="0.5"></circle>
+
+    <!-- ═══ BIG CTA ═══ -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-8 py-8 md:py-14">
+      <div class="neon-gradient rounded-2xl md:rounded-3xl p-10 md:p-20 text-center relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+          <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+            <circle cx="50" cy="50" fill="none" r="45" stroke="white" stroke-width="0.5"/>
+            <circle cx="50" cy="50" fill="none" r="30" stroke="white" stroke-width="0.5"/>
+            <circle cx="50" cy="50" fill="none" r="15" stroke="white" stroke-width="0.5"/>
           </svg>
         </div>
-        <div class="relative z-10 space-y-8 text-center md:text-left">
-          <h2 class="font-headline text-3xl sm:text-4xl md:text-7xl font-black text-white leading-tight">Siap Memiliki<br />iPhone
-            Baru?</h2>
-          <p class="text-white/80 text-xl max-w-lg">Konsultasikan kebutuhan Anda bersama tim kami dan dapatkan penawaran
-            terbaik hari ini.</p>
-        </div>
-        <div class="relative z-10 flex flex-col sm:flex-row gap-4 md:gap-6 w-full md:w-auto min-w-[250px]">
-          <a href="https://wa.me/6285813994032?text=Budget%20saya%20sesuai%20rekomendasi%20cocoknya%20apa?"
-            target="_blank"
-            class="bg-white text-primary px-8 py-4 md:px-12 md:py-6 rounded-full font-bold text-lg md:text-xl hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-4 text-center">
-            <span class="material-symbols-outlined text-xl md:text-2xl" style='font-variation-settings: "FILL" 1;'>call</span>
-            WhatsApp
-          </a>
-          <a href="#lokasi"
-            class="bg-black/20 text-white backdrop-blur-md border border-white/20 px-8 py-4 md:px-12 md:py-6 rounded-full font-bold text-lg md:text-xl hover:bg-black/30 transition-all flex items-center justify-center gap-4 text-center">
-            <span class="material-symbols-outlined text-xl md:text-2xl">map</span>
-            Lokasi
+        <div class="relative z-10 space-y-6 max-w-xl mx-auto">
+          <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-black text-white leading-tight">Mau Dibantu Cari iPhone yang Cocok?</h2>
+          <p class="text-white/80 text-base md:text-lg">Sebutkan budget, kebutuhan, dan cara transaksi yang Anda mau. Tim SAHIRA bantu arahkan pilihan yang paling masuk akal.</p>
+          <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20mau%20dibantu%20cari%20iPhone%20yang%20cocok.%20Budget%20saya%20sekitar%20______."
+            target="_blank" onclick="wa('ClickWhatsAppHero','final_cta')"
+            class="inline-flex items-center gap-2 bg-white text-blue-700 px-10 py-4 rounded-full font-bold text-base md:text-lg hover:scale-105 active:scale-95 transition-transform shadow-xl">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-green-500"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat WhatsApp Sekarang
           </a>
         </div>
       </div>
     </section>
 
-    <!-- Map Section -->
-    <section id="lokasi" class="max-w-7xl mx-auto px-4 md:px-8 py-24 mb-16">
-      <div class="grid lg:grid-cols-3 gap-12 items-start">
-        <!-- Text Info -->
-        <div class="lg:col-span-1 space-y-8">
+    <!-- ═══ LOKASI ═══ -->
+    <section id="lokasi" class="max-w-7xl mx-auto px-4 md:px-8 py-16 md:py-20 mb-6">
+      <div class="grid lg:grid-cols-3 gap-10 items-start">
+        <div class="lg:col-span-1 space-y-6">
+          <div class="space-y-2">
+            <span class="text-blue-600 font-bold tracking-widest uppercase text-sm block">Lokasi</span>
+            <h2 class="font-headline text-3xl font-extrabold text-[#2a2b51] leading-tight">Kunjungi Kami di Toko</h2>
+            <p class="text-slate-500 text-sm">Mau cek unit langsung? Chat dulu untuk cek stok dan jadwal kunjungan.</p>
+          </div>
           <div class="space-y-4">
-            <span class="text-primary font-bold tracking-widest uppercase text-sm block">Lokasi Store</span>
-            <h2 class="font-headline text-4xl font-extrabold text-on-background leading-tight">Kunjungi Kami di Ciomas.
-            </h2>
-            <p class="text-on-surface-variant text-lg">Nikmati pengalaman berbelanja iPhone secara langsung dengan
-              pelayanan Apple Specialist kami.</p>
-          </div>
-
-          <div class="space-y-6">
-            <div class="flex items-start gap-4">
-              <span class="material-symbols-outlined text-primary mt-1">location_on</span>
+            <div class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-blue-600 mt-0.5 text-xl">location_on</span>
               <div>
-                <h4 class="font-bold text-on-background">Alamat Utama</h4>
-                <p class="text-on-surface-variant">Jl. Ciomas No. 16, RT.002/RW.001, Pasirmulya,Kec.Ciomas, Kabupaten
-                  Bogor, Jawa Barat 16118</p>
+                <h4 class="font-bold text-[#2a2b51] text-sm">Alamat</h4>
+                <p class="text-slate-500 text-sm">Jl. Ciomas No. 16, RT.002/RW.001, Pasirmulya, Kec. Ciomas, Kab. Bogor, Jawa Barat 16118</p>
               </div>
             </div>
-            <div class="flex items-start gap-4">
-              <span class="material-symbols-outlined text-primary mt-1">schedule</span>
+            <div class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-blue-600 mt-0.5 text-xl">schedule</span>
               <div>
-                <h4 class="font-bold text-on-background">Jam Operasional</h4>
-                <p class="text-on-surface-variant">Setiap Hari: 10:00 - 22:00 WIB</p>
+                <h4 class="font-bold text-[#2a2b51] text-sm">Jam Buka</h4>
+                <p class="text-slate-500 text-sm">Setiap Hari: 10:00 – 22:00 WIB</p>
               </div>
             </div>
           </div>
-
-          <a href="https://maps.app.goo.gl/goCuEGGadUt4vmVWA" target="_blank"
-            class="block text-center w-full py-4 border-2 border-primary text-primary font-bold rounded-2xl hover:bg-primary hover:text-white transition-all">
-            Buka di Google Maps
-          </a>
+          <div class="flex flex-col gap-3">
+            <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20mau%20tanya%20lokasi%20toko%20dan%20jadwal%20kunjungan."
+              target="_blank" onclick="wa('ClickWhatsAppCatalog','location_wa')"
+              class="block text-center w-full py-3 bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl transition-colors text-sm">
+              Tanya Lokasi via WhatsApp
+            </a>
+            <a href="https://maps.app.goo.gl/goCuEGGadUt4vmVWA" target="_blank"
+              class="block text-center w-full py-3 border-2 border-blue-600 text-blue-600 font-bold rounded-xl hover:bg-blue-600 hover:text-white transition-all text-sm">
+              Buka di Google Maps
+            </a>
+          </div>
         </div>
 
-        <!-- Google Maps Embed -->
-        <div class="lg:col-span-2 relative group h-[450px] lg:h-[550px]">
-          <div
-            class="absolute -inset-2 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-[2.5rem] blur-xl opacity-50 group-hover:opacity-100 transition duration-500">
-          </div>
-          <div class="relative h-full w-full rounded-[2rem] overflow-hidden border-4 border-white shadow-2xl">
-            <!-- Iframe Map (Lokasi: Ciomas, Bogor) -->
+        <div class="lg:col-span-2 relative group h-[380px] lg:h-[460px]">
+          <div class="absolute -inset-2 bg-gradient-to-r from-blue-200/40 to-purple-200/40 rounded-3xl blur-xl opacity-50 group-hover:opacity-100 transition duration-500"></div>
+          <div class="relative h-full w-full rounded-2xl overflow-hidden border-4 border-white shadow-2xl">
             <iframe
               src="https://maps.google.com/maps?q=Jl.%20Ciomas%20No.%2016,%20Pasirmulya,%20Bogor&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
-
-            <!-- Overlay Card (Optional/Mobile) -->
-            <div class="absolute bottom-6 right-6 bg-white p-4 rounded-xl shadow-lg hidden md:block">
-              <div class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center">
-                  <span class="material-symbols-outlined text-sm">near_me</span>
-                </div>
-                <div>
-                  <p class="text-xs font-bold text-slate-400 uppercase tracking-tighter">Titik Point</p>
-                  <p class="text-sm font-bold text-on-background">Sahira Phonecell Store</p>
-                </div>
+            <div class="absolute bottom-4 right-4 bg-white p-3 rounded-xl shadow-lg hidden md:flex items-center gap-2.5">
+              <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0">
+                <span class="material-symbols-outlined text-sm">near_me</span>
+              </div>
+              <div>
+                <p class="text-xs text-slate-400 font-bold uppercase tracking-tight">Toko</p>
+                <p class="text-sm font-bold text-[#2a2b51]">Sahira Phonecell</p>
               </div>
             </div>
           </div>
@@ -881,26 +839,37 @@ src="https://www.facebook.com/tr?id=1760940105286603&ev=PageView&noscript=1"
     </section>
 
   </main>
-  <!-- Footer -->
-  <footer id="footer" class="bg-slate-50 dark:bg-slate-950 w-full rounded-t-[3rem] pt-12">
-    <div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 w-full gap-10 max-w-7xl mx-auto">
-      <div class="space-y-4 text-center md:text-left">
-        <div class="text-2xl font-bold text-slate-900 dark:text-slate-100 font-headline">Sahira Phonecell</div>
-        <p class="text-slate-500 dark:text-slate-400 text-base font-body">© 2024 Sahira Phonecell - Nova Edition. Hak
-          Cipta Dilindungi.</p>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-50 w-full rounded-t-3xl">
+    <div class="flex flex-col md:flex-row justify-between items-center px-8 py-10 w-full gap-6 max-w-7xl mx-auto">
+      <div class="space-y-1 text-center md:text-left">
+        <div class="text-lg font-bold text-slate-900 font-headline">Sahira Phonecell</div>
+        <p class="text-slate-400 text-sm">© 2025 SAHIRA PHONECELL. Hak Cipta Dilindungi.</p>
       </div>
-      <div class="flex flex-wrap justify-center gap-12">
-        <a class="text-slate-600 dark:text-slate-400 text-sm font-body hover:text-cyan-500 transition-colors"
-          href="#">Tentang Kami</a>
-        <a class="text-slate-600 dark:text-slate-400 text-sm font-body hover:text-cyan-500 transition-colors"
-          href="#">Syarat &amp; Ketentuan</a>
-        <a class="text-slate-600 dark:text-slate-400 text-sm font-body hover:text-cyan-500 transition-colors"
-          href="#">Pusat Bantuan</a>
-        <a class="font-bold text-blue-600 text-sm font-body hover:text-cyan-500 transition-colors"
-          href="https://wa.me/6285813994032" target="_blank">Kontak WhatsApp</a>
+      <div class="flex flex-wrap justify-center gap-6">
+        <a class="text-slate-500 text-sm hover:text-blue-600 transition-colors" href="#cara-beli">Cara Beli</a>
+        <a class="text-slate-500 text-sm hover:text-blue-600 transition-colors" href="#faq">FAQ</a>
+        <a class="text-slate-500 text-sm hover:text-blue-600 transition-colors" href="#lokasi">Lokasi</a>
+        <a class="font-bold text-green-600 text-sm hover:text-green-700 transition-colors flex items-center gap-1"
+          href="https://wa.me/6285813994032" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
       </div>
     </div>
   </footer>
-</body>
 
+  <!-- STICKY WA BUTTON -->
+  <div class="fixed bottom-0 left-0 right-0 z-50 p-3 md:left-auto md:right-6 md:bottom-6 md:p-0">
+    <a href="https://wa.me/6285813994032?text=Halo%20SAHIRA%2C%20saya%20mau%20cek%20stok%20iPhone%20terbaru."
+      target="_blank"
+      onclick="wa('ClickWhatsAppSticky','sticky_button')"
+      class="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 active:scale-95 text-white py-4 px-6 rounded-full font-bold shadow-2xl transition-all pulse-wa text-sm w-full md:w-auto">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 flex-shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Cek Stok via WA
+    </a>
+  </div>
+
+</body>
 </html>
